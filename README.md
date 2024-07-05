@@ -54,8 +54,17 @@ library(GCA)
 
 [Vignette](https://qgresources.github.io/GCA_Vignette/GCA.html)
 
+## Contact information and help
+
+-   Haipeng Yu (<haipengyu@ufl.edu>)
+
 ## Reference
 
 Haipeng Yu and Gota Morota. GCA: An R package for genetic connectedness
 analysis using pedigree and genomic data. BMC Genomics, 2021.
 [10.1186/s12864-021-07414-7](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-021-07414-7)
+
+## License
+
+This project is primarily licensed under the GNU General Public License
+version 3 (GPLv3).
