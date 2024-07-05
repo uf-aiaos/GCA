@@ -3,6 +3,8 @@
 
 # GCA <img src="man/figures/GCA.png" height="200" align="right"/>
 
+<br>
+
 ## Update: maintenance transition
 
 Starting from July, 2024, the GCA R package will be maintained by the
