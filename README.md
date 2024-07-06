@@ -3,12 +3,12 @@
 
 # GCA <img src="man/figures/GCA.png" height="200" align="right"/>
 
-## Update: maintenance transition
+## Updates:
 
-Starting from July, 2024, the GCA R package will be maintained by the
-[AIAOS Lab at the University of
-Florida](https://github.com/uf-aiaos/GCA). The AIAOS Lab will handle all
-future maintenance, updates, and support for the package.
+-   Maintenance transition: starting from July, 2024, the GCA R package
+    will be maintained by the [AIAOS Lab at the University of
+    Florida](https://github.com/uf-aiaos/GCA). The AIAOS Lab will handle
+    all future maintenance, updates, and support for the package.
 
 ## Overview
 
