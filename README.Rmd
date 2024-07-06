@@ -12,17 +12,14 @@ knitr::opts_chunk$set(
 )
 ```
 
-# GCA <img src="man/figures/GCA.png" height="200" align="right"/>
+# GCA: An R package for genetic connectedness analysis using pedigree and genomic data.  <img src="man/figures/GCA.png" height="200" align="right"/>
 
 ## Updates: 
 
-- Maintenance transition: starting from July, 2024, the GCA R package will be maintained by the [AIAOS Lab at the University of Florida](https://github.com/uf-aiaos/GCA). The AIAOS Lab will handle all future maintenance, updates, and support for the package. 
-
-## Overview 
-An R package for genetic connectedness analysis using pedigree and genomic data. 
+- Maintenance transition: Starting from July, 2024, the `GCA` R package will be maintained by the [AIAOS Lab at the University of Florida](https://github.com/uf-aiaos/). The AIAOS Lab will handle all future maintenance, updates, and support for the package. 
 
 ## Installation
-GCA is currently available in Github, and can be installed with devtools package: 
+`GCA` is currently available on GitHub and can be installed using `devtools` package: 
 
 1. Install `devtools` package from CRAN. 
 ```{r, warning = FALSE, message = FALSE, results = 'hide', eval = FALSE}
@@ -34,7 +31,7 @@ install.packages("devtools")
 library(devtools)
 ```
 
-3. Install `GCA` package from Github.
+3. Install `GCA` package from GitHub.
 ```{r, warning = FALSE, results = 'hide', message = FALSE, eval = FALSE}
 install_github('uf-aiaos/GCA')
 ```
