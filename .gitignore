@@ -1,5 +1,7 @@
 Meta
-doc
+doc/*.csl
+doc/*.bib
+doc/*.Rmd
 .Rproj.user
 .Rhistory
 .RData
@@ -9,4 +11,3 @@ src/*.o
 src/*.so
 src/*.dll
 .travis.yml
-vignettes

@@ -36,7 +36,19 @@ library(devtools)
 
 3. Install `GCA` package from Github.
 ```{r, warning = FALSE, results = 'hide', message = FALSE, eval = FALSE}
-install_github('QGresources/GCA')
+install_github('uf-aiaos/GCA')
+```
+
+**Note**: For Apple Silicon (ARM64) users, if you encounter the error `Could not find tools necessary to compile a package`, it can be fixed using the following command.
+
+```{bash, warning = FALSE, results = 'hide', eval = FALSE}
+# Check the version of gcc installed by homebrew
+ls /opt/homebrew/bin/gcc* 
+
+# Create a symlink `gcc` under /usr/local/bin/ and point to the gcc installed by Homebrew (gcc-14 in this case). 
+sudo ln -s /opt/homebrew/bin/gcc-14 /usr/local/bin/gcc
+
+# Restart the terminal and then install the package using `install_github('uf-aiaos/GCA')`.
 ```
 
 4. Load `GCA` package. 
@@ -50,7 +62,7 @@ library(GCA)
 ```
 
 ## Documentation
-[Vignette](https://qgresources.github.io/GCA_Vignette/GCA.html)
+[Vignette](./doc/GCA.html)
 
 ## Contact information and help
 - Haipeng Yu (<haipengyu@ufl.edu>)
