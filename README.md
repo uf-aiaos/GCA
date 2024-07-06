@@ -66,7 +66,7 @@ library(GCA)
 
 ## Documentation
 
-[Vignette](./doc/GCA.html)
+[Vignette](https://uf-aiaos.github.io/GCA_vignette/GCA.html)
 
 ## Contact information and help
 
